@@ -1,0 +1,209 @@
+# Saxch.github.io
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PortFolio</title>
+        
+        <!--Fuente añadida poopins-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">   
+        
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/a86a732b7b.js" crossorigin="anonymous"></script>
+
+        <!--LINK CSS-->
+        <link rel="stylesheet" href="./CSS/estilos.css">
+
+
+    </head>
+    <body>
+        <!--Menu de navegacion-->
+        <nav id="menu">
+            <ul>
+                <li> <a href="#sobremi">SOBRE MI </a></li>
+                <li> <a href="#portfolio">PORTFOLIO</a></li>
+                <li id="logo"><img src="./img/cascos.png" alt="" ></li>
+                <li> <a href="#experiencia">SKILLS</a></li>
+                <li> <a href="#contactar">CONTACTAR</a></li>
+            </ul>
+        </nav>
+        <article>
+            <!--Bloque de inicio-->
+            <section id="inicio">
+                <h2>Sergio Gutierrez</h2>
+                <h3 class="hastag">#Programador</h3>
+                <h3 class="hastag">#Músico</h3>
+                <ul id="redessociales">
+                    <li> <a href="https://open.spotify.com/intl-es/" target="_blank"> <i class="fa-brands fa-spotify"></i></a> </li>
+                    <li> <a href="https://x.com/?lang=es" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li> <a href="https://es.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> </li>
+                    <li> <a href="http://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </section>
+            <!--Fin de bloque de inicio-->
+            <!--Bloque sobre mi-->
+            <section id="sobremi" >
+                <div id="imgsobremi"><img src="./img/groot_250.jpg" alt="Imagen Kaladin" ></div>
+                <div id="bodysobremi">
+                    <h2>Sobre mi</h2>
+                    <p>Soy <strong>Sergio Gutierrez</strong>, músico de carrera y apasionado de tecnología y la programación. Música y emprendimiento forman parte de la cotidianidad del músico freelance. 
+                    Es un mundo en el que me ha llevado a lo largo de mi carrera a conocer muchos grandes profesionales y maravillosos escenarios. Durante ese periplo se cruzó en mi vida el diseño y desarrollo web, 
+                    donde se abren nuevas oportunidades de crecimiento combinadas al sector de la producción audiovisual.</p>
+                    <p>Me defino como una persona creativa y enamorado de lo que hago, donde mi máxima es 
+                    <cite>"el mundo es un aula maravillosa de aprendizaje continuo"</cite> .</p>
+                    <div class="masinfo"><button type="button">MAS INFO</button></div>
+                </div>
+            </section>
+            <!--FIN de Bloque sobre mi-->
+            
+            
+            <!--Bloque portfolio-->
+            <section id="portfolio" >
+                <h2>Portfolio</h2>
+                <h3>Una mirada mas alla del texto</h3>
+                
+                <div class="filaportfolio">
+                    <div class="card">
+                        <video controls width="250">
+                            <source src="./media/intro_mastermind.mp4" type="video/mp4">
+                        </video>
+                        <h3>Musica<h3>
+                        <h4>Concierto benicasim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>                
+                    <div class="card">
+                        <img src="./img/imagen_portfolio.png"alt="Portfolio 2">
+                        <h3>Musica<h3>
+                        <h4>Concierto benicasim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>               
+                    <div class="card">
+                        <img src="./img/imagen_portfolio.png"alt="Portfolio 3">
+                        <h3>Musica<h3>
+                        <h4>Concierto benicasim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>             
+                    <div class="card">
+                        <img src="./img/imagen_portfolio.png"alt="Portfolio 4">
+                        <h3>Musica<h3>
+                        <h4>Concierto benicasim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                </div>
+            </section>
+            <!--Bloque portfolio-->
+            <section id="experiencia">
+                <h2>Experiencia & Skills</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <div class="gridexp">
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--Bloque portfolio-->
+            <section id="contactar">
+                <h2>Contacto</h2>
+                <h3>Envíame tus dudas</h3>
+                <form action="#">
+                    <div class="itemform">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="14" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="Empresa">Empresa</label>
+                        <input type="text" id="Empresa" name="Empresa" size="14">
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" size="14" minlength="10" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+                        
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="booton" value="CONTACTAR">
+                    </div>
+                </form>
+            </section>
+        </article>
+
+        <!--Footer-->
+        <footer>
+            <ul id="footerlogo">
+                <li class="logo"><a href="#inicio"><img src="./img/cascos.png" alt=""></a></li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            </ul>
+        </footer>
+    </body>
+</html>
